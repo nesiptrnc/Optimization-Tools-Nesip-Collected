@@ -1,0 +1,146 @@
+Windows Registry Editor Version 5.00
+
+; Created with Winaero Tweaker 1.40.0.0
+; https://winaero.com
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+"DisableAntiVirus"=dword:00000001
+"DisableSpecialRunningModes"=dword:00000001
+"DisableRoutinelyTakingAction"=dword:00000001
+"ServiceKeepAlive"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviorMonitoring"=dword:00000001
+"DisableOnAccessProtection"=dword:00000001
+"DisableScanOnRealtimeEnable"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"ForceUpdateFromMU"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"DisableBlockAtFirstSeen"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AppHost]
+"EnableWebContentEvaluation"=dword:00000000
+"PreventOverride"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Policy]
+"VerifiedAndReputablePolicyState"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Edge\SmartScreenEnabled]
+@=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+"DisableAntiVirus"=dword:00000001
+"DisableSpecialRunningModes"=dword:00000001
+"DisableRoutinelyTakingAction"=dword:00000001
+"ServiceKeepAlive"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviorMonitoring"=dword:00000001
+"DisableOnAccessProtection"=dword:00000001
+"DisableScanOnRealtimeEnable"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"ForceUpdateFromMU"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"DisableBlockAtFirstSeen"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AppHost]
+"EnableWebContentEvaluation"=dword:00000000
+"PreventOverride"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Policy]
+"VerifiedAndReputablePolicyState"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Edge\SmartScreenEnabled]
+@=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: September 23, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-phishing-protection-in-windows-11.5721/
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WTDS\Components]
+"ServiceEnabled"=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: September 23, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-phishing-protection-in-windows-11.5721/
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WTDS\Components]
+"NotifyMalicious"=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: September 23, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-phishing-protection-in-windows-11.5721/
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WTDS\Components]
+"NotifyPasswordReuse"=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: September 23, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-phishing-protection-in-windows-11.5721/
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WTDS\Components]
+"NotifyUnsafeApp"=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: April 7, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-check-apps-and-files-from-web-in-windows-11.5731/
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"SmartScreenEnabled"="Off"
+
+
+; Created by: Shawn Brink
+; Created on: April 9, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-for-microsoft-edge-in-windows-11.5758/
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Edge\SmartScreenEnabled]
+@=dword:00000000
+
+
+
+; Created by: Shawn Brink
+; Created on: April 8, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-defender-smartscreen-for-microsoft-store-apps-in-windows-11.5736/
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AppHost]
+"EnableWebContentEvaluation"=dword:00000000
+"PreventOverride"=dword:00000000
+
+
+; Created by: Shawn Brink
+; Created on: April 8, 2022
+; Tutorial: https://www.elevenforum.com/t/turn-on-or-off-smart-app-control-in-windows-11.4996/
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Policy]
+"VerifiedAndReputablePolicyState"=dword:00000000
+
+

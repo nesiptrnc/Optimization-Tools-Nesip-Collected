@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00      Reg key By youtube.com/zubisgaming
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters]
+
+"EnableSuperfetch"=dword:00000000
